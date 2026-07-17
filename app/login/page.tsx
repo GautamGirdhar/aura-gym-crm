@@ -62,7 +62,7 @@ export default function LoginPage() {
           className="w-full border p-3 rounded"
         />
 
-        <button className="w-full bg-black text-white py-3 rounded">
+        <button className="w-full cursor-pointer bg-black text-white py-3 rounded">
           {loading ? "Logging in..." : "Login"}
         </button>
       </form>

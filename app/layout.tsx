@@ -12,7 +12,7 @@ export default function RootLayout({
       <body>
         <div className="flex">
           <Providers>
-            <main className="flex-1 bg-zinc-100 min-h-screen p-8">
+            <main className="flex-1 bg-zinc-100 min-h-screen">
               {children}
               <Toaster richColors position="top-right" />
             </main>
